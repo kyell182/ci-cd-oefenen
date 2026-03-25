@@ -8,17 +8,17 @@ Their last project used an integration workflow for python and the plan is to us
 The team has asked you to help them set up a repo for the integration workflow so it can be used in the latest project and any new projects that come up in the future.
 
 # REQUIREMENTS
-1. Create two new repos.
-1. In the first repo, add a workflow for a Python application.  Create a workflow using the starter workflow for *Python applications*.
-1. Update the workflow so it can be called from another workflow.
-1. In the second repo, add the exercise files and then create a workflow using the starter workflow for *Publish Docker Container*.  Update the workflow to call the integration workflow.
+1. Create atwo new repo.
+2. In the first  workflow for a Python application.  Create a workflow using the starter workflow for *Python applications*.
+3. Update the workflow so it can be called from another workflow.
+4. In the second workflow, add the exercise files and then create a workflow using the starter workflow for *Publish Docker Container*.  Update the workflow to call the integration workflow.
 
     Additionally, add permissions for the integration workflow.  After the `uses` block, add:
 
         permissions:
           contents: read
 
-1. Add a job to build and publish the code as a container image once the integration tests are complete.
+5. Add a job to build and publish the code as a container image once the integration tests are complete.
 
     This requirement is partially completed in the previous step by adding the starter workflow.
 
